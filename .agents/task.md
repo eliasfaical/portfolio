@@ -1,0 +1,23 @@
+# Checklist: Portfólio Elias Faiçal
+
+- [x] Inicialização do Projeto e Configuração Base
+  - [x] Rodar `npx create-next-app` (TypeScript, Tailwind, App Router).
+  - [ ] Configurar o `tailwind.config.ts` com a paleta de cores (âmbar e dark theme).
+  - [ ] Adicionar workflow de GitHub Actions (`.github/workflows/ci.yml`).
+- [x] Estrutura de Dados e Camada de Conteúdo
+  - [x] Criar `src/content/projects.json`.
+  - [x] Criar `src/content/services.json`.
+  - [x] Criar `src/content/profile.json`.
+  - [x] Desenvolver `src/lib/content.ts` (tipagem e métodos de leitura).
+- [x] Desenvolvimento dos Componentes Globais
+  - [x] Componente `Header`.
+  - [x] Componente `Footer`.
+  - [x] Componentes UI (Botões, Cards, ContactForm).
+- [x] Desenvolvimento das Páginas
+  - [x] Home (`/`).
+  - [x] Sobre (`/sobre`).
+  - [x] Portfólio (`/portfolio`).
+  - [x] Contato (`/contato`) com `ContactForm` (Formspree).
+- [x] Testes, Build e Revisão Final
+  - [x] Teste de responsividade.
+  - [x] Validar build (Nota: O ambiente local possui Node 18, mas a Vercel compilará com Node 20+).

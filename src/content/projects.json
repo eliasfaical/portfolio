@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "title": "SaaS Platform",
+    "description": "Uma plataforma SaaS completa desenvolvida do zero, gerenciando faturamento, usuários e integrações externas.",
+    "stack": ["Next.js", "TypeScript", "Tailwind CSS", "Node.js"],
+    "liveUrl": "https://example.com"
+  },
+  {
+    "id": "2",
+    "title": "E-commerce Premium",
+    "description": "Loja virtual de alta performance com catálogo otimizado, checkout customizado e integrações com ERP.",
+    "stack": ["React", "NestJS", "PostgreSQL"],
+    "liveUrl": "https://example.com/ecommerce"
+  },
+  {
+    "id": "3",
+    "title": "Portal Corporativo",
+    "description": "Site institucional e portal do cliente com autenticação segura e painel de controle.",
+    "stack": ["WordPress", "PHP", "Tailwind CSS"]
+  }
+]

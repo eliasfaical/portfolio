@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "title": "Desenvolvimento de sites",
+    "description": "Criação de landing pages e sites institucionais ultra-rápidos e otimizados para conversão (SEO). Foco total na experiência do usuário e acessibilidade.",
+    "icon": "Globe"
+  },
+  {
+    "id": "2",
+    "title": "Sistemas web sob medida",
+    "description": "Aplicações complexas, painéis administrativos e integrações seguras construídas do zero para resolver problemas reais de negócio.",
+    "icon": "LayoutTemplate"
+  },
+  {
+    "id": "3",
+    "title": "E-commerces",
+    "description": "Plataformas de vendas robustas, seguras e focadas em conversão, prontas para escalar o faturamento do seu negócio digital.",
+    "icon": "ShoppingCart"
+  }
+]

@@ -10,8 +10,6 @@ export function ContactForm() {
     e.preventDefault();
     setStatus('loading');
     
-    const formData = new FormData(e.currentTarget);
-    
     try {
       // Replace with actual formspree endpoint or API route later
       // const response = await fetch('https://formspree.io/f/your_form_id', {
@@ -26,7 +24,7 @@ export function ContactForm() {
       await new Promise(resolve => setTimeout(resolve, 1500));
       setStatus('success');
       (e.target as HTMLFormElement).reset();
-    } catch (error) {
+    } catch {
       setStatus('error');
     }
   };
